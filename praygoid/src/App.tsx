@@ -1,17 +1,20 @@
 import './index.css'
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Welcome to PrayGoid</h1>
-        <h1 className="text-3xl font-bold underline">
-          Hello world!
-        </h1>
-        <p>Your journey to spiritual growth starts here.</p>
-      </header>
-    </div>
+    <>
+      <h1>Where To Go</h1>
+      <img src="/src/assets/images/java-map.svg" alt="Java Map" />
+      <DotLottieReact>
+          src="https://app.lottiefiles.com/share/2489c221-1c10-4806-a2aa-ec92a0c092ce"
+          loop
+          autoplay
+      </DotLottieReact>
+    </>
   )
 }
+
 
 export default App
